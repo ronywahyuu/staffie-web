@@ -6,12 +6,7 @@ Staffie is wen app to show information about employee / worker / staff in a comp
 - All information related to currently account will be showed
 
 ## Dummy Account 
-- Username : ronywahyu
-- password : 123456
-
-- username :wahyuu
-- password : 54321
-
-- username : joncena
-- password : 11111
+- Username : ronywahyu & password : 123456
+- username :wahyuu & password : 54321
+- username : joncena & password : 11111
 
