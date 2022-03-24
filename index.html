@@ -39,7 +39,7 @@
             </form>
         </nav>
 
-        <main id="app" class="main container hidden ">
+        <main id="app" class="main container ">
             <div class="left-container">
                 <div class="work-stats-container">
                     <!-- Stats Container are rendered from JS and Will Be Placed in Here okayyy -->
@@ -71,11 +71,39 @@
                     
                 </div>
                 <button class="btn-profile btn-info">More Info</button>
+                <button class="btn-profile btn-calculator">Salary Calculator</button>
                 <button class="btn-profile btn-logout">Log Out</button>
             </div>
 
             <div class="block1"></div>
         </main>
+
+        <div class="modal hidden">
+            <button class="btn--close-modal">&times;</button>
+            <h2 class="modal__header">
+              Calculate Your Custom Salary
+            </h2>
+            <form class="modal__form">
+              <label>Name</label>
+              <input class="name-calculate" type="text" />
+              <label for="salary-class">Salary Class</label>
+              <select name="salary-class" id="salaryClassOptions">
+                <option value="I">I</option>
+                <option value="II">II</option>
+                <option value="III">III</option>
+                <option value="IV">IV</option>
+              </select>
+              <!-- <input type="text" /> -->
+              <label>Salary Cuts(Rp)</label>
+              <input class="cuts-calculate" type="number" value="500000" disabled />
+              <label>Allowance(Rp)</label>
+              <input class="allowance-calculate" type="number" value="1500000" disabled />
+              <button class="btn btn-calculate">Calculate</button>
+            </form>
+          </div>
+          <div class="overlay hidden"></div>
+
+
         <div class="hero">
             <img class="hero-img" src="./src/img/hero.svg" alt="" />
         </div>
